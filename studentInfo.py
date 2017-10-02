@@ -1,29 +1,32 @@
+import random 
 def main():
   students = [
-    Student("Larsson", 37),
-    Student("BonJovi", 55),
+    Student("Larsson,Halsted", 37),
+    Student("BonJovi,Jon", 55),
+    Student("Danvers,Lilly", 28)
   ]
 
   printHeader()
   selection = getUserSelection()
 
 class Student:
-  def __init__(self, lastName, age):
-    self.lastName = lastName
-    self.age = age
-    self.firstName = "NONE SPECIFIED"
+  def __init__(self, lastName, firstname, age):
+   self.lastName = lastName
+   self.age = age
+   self.firstName = firstname
+
 
   def assignRandomName(self):
-    pass
+      self.name = random.randint(0, 60)
 
   def assignRandomAge(self):
-    pass
+      self.age = random.randint(0, 100)
 
-  def assignRandomWeight(self, isMetric):
-    pass
-
-  def assignRandomHeight(self, isMetric):
-    pass
+  def assignRandomWeight(self):
+      self.wight = random.randint(80, 200)
+      
+  def assignRandomHeight(self):
+      pass 
 
 inputQuestions = [ 
   "For STUDENTS BY AGE, type 0",
@@ -34,9 +37,9 @@ inputQuestions = [
 ]
 
 def getUserSelection():
-  print inputQuestions[0]
-  print inputQuestions[1]
-  print inputQuestions[2]
+  (print) inputQuestion[0]
+  (print) inputQuestion[1]
+  (print) inputQuestion[2]
   return input("Type selection and press enter:")
 
 
@@ -58,7 +61,7 @@ def printSumAge():
 def printAvgAge():
   print "Answer:"
 
-def ageRange(studentA, studentB):
+def ageRange(studentA, studentB, studentC):
   pass
 
 
