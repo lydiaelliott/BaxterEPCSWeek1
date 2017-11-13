@@ -37,9 +37,9 @@ inputQuestions = [
 ]
 
 def getUserSelection():
-  (print) inputQuestion[0]
-  (print) inputQuestion[1]
-  (print) inputQuestion[2]
+  (print) inputQuestions[0]
+  (print) inputQuestions[1]
+  (print) inputQuestions[2]
   return input("Type selection and press enter:")
 
 

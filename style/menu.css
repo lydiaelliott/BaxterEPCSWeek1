@@ -1,0 +1,41 @@
+.menu{
+  display: flex;
+}
+.animal {
+  display: flex;
+  flex-direction: column;
+}
+.PetInfo{
+  display: flex;
+  flex-direction: row;
+  border: 10px solid green;
+}
+.img{
+ display: flex;
+ flex-direction: row;
+}
+.name{
+  flex: 2;
+}
+.cost{
+  flex: 1;
+}
+.PetInfo{
+  display: flex;
+  margin: 4px;
+  padding: 0px;
+  border: 2px solid green;
+  box-shadow: 1px 1px 2px #dddddd;
+  flex-direction:column;
+}
+.Pet:before{
+  content: "Pet";
+  font-weight: bold;
+  background: #00AA00;  
+  color: #DDFFDD;
+}
+
+.PetInfo, .PetInfo:before{
+  flex: 1;
+  padding: 0.5em;
+}
