@@ -1,0 +1,65 @@
+}
+.menu{
+  display: flex;
+}
+.adopt{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.hl{
+  text-align: center;
+}
+.animal {
+  border: 3px solid black;
+  margin: 10px;
+  padding: 1px;
+}
+.PetInfo{
+  display: flex;
+  flex-direction: row;
+  border: 10px solid green;
+
+}
+.image{
+  display: inline;
+  flex-direction: row;
+  width: 150px;
+  height: 150px;
+}
+.img{
+ display: inline;
+ flex-direction: row;
+ width: 200px;
+ height: 200px;
+ border-radius: 50%;
+}
+.name{
+  flex: 4;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+.cost{
+  flex: 1;
+}
+.PetInfo{
+  display: flex;
+  margin: 4px;
+  padding: 0px;
+  border: 2px solid green;
+  box-shadow: 1px 1px 2px #dddddd;
+  flex-direction:column;
+}
+.Pet:before{
+  content: "Animal Info";
+  font-weight:normal;
+  background: #FFFFFF;
+  color: #000000;
+  text-align: left;
+}
+
+.PetInfo, .PetInfo:before{
+  flex: 1;
+  padding: 0.5em;
+}
