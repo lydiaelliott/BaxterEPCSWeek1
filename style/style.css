@@ -18,7 +18,7 @@
 .PetInfo{
   display: flex;
   flex-direction: row;
-  border: 10px solid green;
+  border: 10px solid pink;
 
 }
 .image{
@@ -26,6 +26,7 @@
   flex-direction: row;
   width: 150px;
   height: 150px;
+  text-align: center;
 }
 .img{
  display: inline;
@@ -62,4 +63,17 @@
 .PetInfo, .PetInfo:before{
   flex: 1;
   padding: 0.5em;
+}
+.button{
+  color: #FF1493
+}
+.ul{
+  display: flex;
+  flex-direction: column;
+}
+.aboutUs{
+  display: flex;
+  
+
+}
 }
